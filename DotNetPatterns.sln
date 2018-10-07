@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Behavioral\Strategy\Strategy.csproj", "{15040E71-0A3F-4942-8E52-59A92AC5A820}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Behavioral\Strategy\Strategy.csproj", "{15040E71-0A3F-4942-8E52-59A92AC5A820}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{0F1BDC42-60C4-4C51-B0FB-A2AE245DE35D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetPatterns.Tests", "DotNetPatterns.Tests\DotNetPatterns.Tests.csproj", "{6A699BA2-945A-4CED-8218-560380578334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetPatterns.Tests", "DotNetPatterns.Tests\DotNetPatterns.Tests.csproj", "{6A699BA2-945A-4CED-8218-560380578334}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetPatterns.Exec", "DotNetPatterns.Exec\DotNetPatterns.Exec.csproj", "{E2523D36-6147-46A1-9119-69258925B6E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetPatterns.Exec", "DotNetPatterns.Exec\DotNetPatterns.Exec.csproj", "{E2523D36-6147-46A1-9119-69258925B6E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "Behavioral\TemplateMethod\TemplateMethod.csproj", "{00A7228D-1F95-4086-8E5B-4D9F1131AB0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{061D64B6-3F9F-4A8A-AC92-CE02A60E8D8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +33,21 @@ Global
 		{E2523D36-6147-46A1-9119-69258925B6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2523D36-6147-46A1-9119-69258925B6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2523D36-6147-46A1-9119-69258925B6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A7228D-1F95-4086-8E5B-4D9F1131AB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A7228D-1F95-4086-8E5B-4D9F1131AB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A7228D-1F95-4086-8E5B-4D9F1131AB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A7228D-1F95-4086-8E5B-4D9F1131AB0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061D64B6-3F9F-4A8A-AC92-CE02A60E8D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061D64B6-3F9F-4A8A-AC92-CE02A60E8D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061D64B6-3F9F-4A8A-AC92-CE02A60E8D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061D64B6-3F9F-4A8A-AC92-CE02A60E8D8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{15040E71-0A3F-4942-8E52-59A92AC5A820} = {0F1BDC42-60C4-4C51-B0FB-A2AE245DE35D}
+		{00A7228D-1F95-4086-8E5B-4D9F1131AB0D} = {0F1BDC42-60C4-4C51-B0FB-A2AE245DE35D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19D49008-ED16-4328-B01A-830499FF2C80}
